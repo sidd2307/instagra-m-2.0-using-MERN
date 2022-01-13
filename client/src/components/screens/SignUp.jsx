@@ -26,7 +26,7 @@ export default function SignUp() {
     data.append("upload_preset", "insta-by-sid");
     data.append("cloud_name", "instagrambysid");
 
-    fetch("http://api.cloudinary.com/v1_1/instagrambysid/image/upload", {
+    fetch("https://api.cloudinary.com/v1_1/instagrambysid/image/upload", {
       method: "post",
       body: data,
     })
